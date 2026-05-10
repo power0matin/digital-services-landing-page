@@ -1,27 +1,102 @@
+/* ================================
+   Design Tokens
+================================ */
+
 :root {
+  /* Base Colors */
   --bg: #eef7ff;
   --paper: #ffffff;
   --text: #071426;
   --muted: #5b6b80;
   --muted-2: #8290a3;
+
+  /* Brand Colors */
   --primary: #061a35;
   --primary-2: #083b72;
   --accent: #12cffa;
   --accent-2: #2563eb;
   --success: #0ea5a4;
+
+  /* Surfaces */
   --line: rgba(255, 255, 255, 0.86);
   --border: rgba(148, 163, 184, 0.22);
   --surface: rgba(255, 255, 255, 0.76);
   --surface-strong: rgba(255, 255, 255, 0.92);
+
+  /* Shadows */
   --shadow-sm: 0 10px 30px rgba(8, 47, 73, 0.08);
   --shadow-md: 0 18px 54px rgba(8, 47, 73, 0.12);
   --shadow-lg: 0 30px 90px rgba(8, 47, 73, 0.16);
+
+  /* Radius */
+  --radius-sm: 14px;
+  --radius-md: 18px;
   --radius-lg: 20px;
   --radius-xl: 28px;
   --radius-2xl: 38px;
+  --radius-pill: 999px;
+
+  /* Layout */
   --container: 1180px;
+
+  /* Motion */
   --ease: cubic-bezier(.2, .8, .2, 1);
+  --ease-soft: cubic-bezier(.16, 1, .3, 1);
+  --ease-premium: cubic-bezier(.22, .9, .24, 1);
+
+  /* Scrollbar */
+  --scrollbar-size: 14px;
+  --scrollbar-radius: var(--radius-pill);
+  --scrollbar-border-size: 4px;
+
+  --scrollbar-track:
+    linear-gradient(180deg,
+      rgba(238, 247, 255, 0.96),
+      rgba(255, 255, 255, 0.76));
+
+  --scrollbar-thumb:
+    linear-gradient(180deg,
+      #5ee7ff 0%,
+      var(--accent) 28%,
+      var(--accent-2) 62%,
+      var(--primary-2) 100%);
+
+  --scrollbar-thumb-hover:
+    linear-gradient(180deg,
+      #8cf0ff 0%,
+      var(--accent) 34%,
+      var(--accent-2) 100%);
+
+  --scrollbar-thumb-active:
+    linear-gradient(180deg,
+      var(--primary-2) 0%,
+      var(--accent-2) 52%,
+      var(--accent) 100%);
+
+  --scrollbar-border: rgba(238, 247, 255, 0.9);
+  --scrollbar-glow: rgba(18, 207, 250, 0.36);
+  --scrollbar-glow-strong: rgba(18, 207, 250, 0.5);
+
+  /* Scroll Progress */
+  --progress-width: 11px;
+  --progress-width-active: 14px;
+  --progress-height: min(44vh, 380px);
+  --progress-offset: 14px;
+  --progress-track:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.62),
+      rgba(255, 255, 255, 0.34));
+  --progress-fill:
+    linear-gradient(180deg,
+      var(--accent) 0%,
+      var(--accent-2) 54%,
+      var(--primary-2) 100%);
 }
+
+/* ================================
+   Root Behavior
+================================ */
+
 
 * {
   box-sizing: border-box;
@@ -31,6 +106,10 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-2) rgba(255, 255, 255, 0.58);
+  scroll-timeline-name: --page-scroll;
+  scroll-timeline-axis: block;
 }
 
 body {
@@ -1344,5 +1423,158 @@ button:focus-visible {
 
   .mobile-cta {
     display: grid;
+  }
+}
+
+/* ================================
+   AAA Native Themed Scrollbar
+   Native browser scrollbar only
+   No JS / No fake progress bar
+================================ */
+
+:root {
+  --scrollbar-size: 14px;
+  --scrollbar-radius: 999px;
+  --scrollbar-border-size: 4px;
+
+  --scrollbar-track:
+    linear-gradient(180deg,
+      rgba(238, 247, 255, 0.96),
+      rgba(255, 255, 255, 0.78));
+
+  --scrollbar-thumb:
+    linear-gradient(180deg,
+      #5ee7ff 0%,
+      var(--accent) 28%,
+      var(--accent-2) 62%,
+      var(--primary-2) 100%);
+
+  --scrollbar-thumb-hover:
+    linear-gradient(180deg,
+      #8cf0ff 0%,
+      var(--accent) 34%,
+      var(--accent-2) 72%,
+      var(--primary-2) 100%);
+
+  --scrollbar-thumb-active:
+    linear-gradient(180deg,
+      var(--primary-2) 0%,
+      var(--accent-2) 52%,
+      var(--accent) 100%);
+
+  --scrollbar-track-border: rgba(255, 255, 255, 0.72);
+  --scrollbar-border: rgba(238, 247, 255, 0.92);
+  --scrollbar-glow: rgba(18, 207, 250, 0.34);
+  --scrollbar-glow-hover: rgba(18, 207, 250, 0.48);
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-2) rgba(238, 247, 255, 0.82);
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: var(--scrollbar-size);
+  height: var(--scrollbar-size);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: var(--scrollbar-radius);
+  background: var(--scrollbar-track);
+  box-shadow:
+    inset 0 0 0 1px var(--scrollbar-track-border),
+    inset 0 0 18px rgba(18, 207, 250, 0.08);
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 78px;
+  border: var(--scrollbar-border-size) solid var(--scrollbar-border);
+  border-radius: var(--scrollbar-radius);
+  background: var(--scrollbar-thumb);
+  background-clip: padding-box;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.42),
+    inset 0 -1px 0 rgba(6, 26, 53, 0.16),
+    0 8px 24px var(--scrollbar-glow);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+  background-clip: padding-box;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.52),
+    inset 0 -1px 0 rgba(6, 26, 53, 0.12),
+    0 10px 34px var(--scrollbar-glow-hover);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--scrollbar-thumb-active);
+  background-clip: padding-box;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.34),
+    inset 0 -1px 0 rgba(6, 26, 53, 0.2),
+    0 8px 28px rgba(37, 99, 235, 0.42);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Better support for horizontal scroll areas */
+*::-webkit-scrollbar {
+  width: var(--scrollbar-size);
+  height: var(--scrollbar-size);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: var(--scrollbar-radius);
+}
+
+/* High contrast users */
+@media (prefers-contrast: more) {
+  html {
+    scrollbar-color: var(--primary-2) #ffffff;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    box-shadow: inset 0 0 0 1px rgba(6, 26, 53, 0.18);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-color: #ffffff;
+    background:
+      linear-gradient(180deg,
+        var(--primary-2),
+        var(--accent-2));
+    background-clip: padding-box;
+    box-shadow: none;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background:
+      linear-gradient(180deg,
+        var(--primary),
+        var(--accent-2));
+    background-clip: padding-box;
+  }
+}
+
+/* Windows High Contrast / Forced Colors */
+@media (forced-colors: active) {
+  html {
+    scrollbar-color: Highlight Canvas;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: Canvas;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-color: Canvas;
+    background: Highlight;
+    box-shadow: none;
   }
 }

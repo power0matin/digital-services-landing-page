@@ -18,49 +18,20 @@ Built with clean HTML, CSS, and Vanilla JavaScript. No framework. No build step.
 
 </div>
 
----
-
 ## Overview
 
 **Premium Digital Services Landing Page** is a polished, production-ready static website template designed for digital service providers, subscription-based services, software access providers, AI-powered tools, support teams, and service-oriented businesses.
 
 The project focuses on performance, accessibility, responsive design, SEO structure, and a clean RTL user experience. It is especially suitable for Persian/Farsi websites and can be easily customized for different brands, services, or business models.
 
----
-
 ## Live Demo
 
-```txt
 https://power0matin.github.io/digital-services-landing-page/
-```
-
----
-
-## Repository
-
-```txt
-https://github.com/power0matin/digital-services-landing-page
-```
-
----
 
 ## Preview
 
 ![Website Preview](assets/images/preview.png)
 
-Recommended preview image size:
-
-```txt
-1280x720
-```
-
-Recommended Open Graph image size:
-
-```txt
-1200x630
-```
-
----
 
 ## Features
 
@@ -86,19 +57,15 @@ Recommended Open Graph image size:
 - GitHub Pages ready
 - Easy to customize and deploy
 
----
-
 ## Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Semantic page structure |
-| CSS3 | Layout, responsive design, animation, visual system |
-| Vanilla JavaScript | Reveal animations and active navigation state |
-| JSON-LD | Structured data for SEO |
-| GitHub Pages | Static hosting |
-
----
+| Technology         | Purpose                                             |
+| ------------------ | --------------------------------------------------- |
+| HTML5              | Semantic page structure                             |
+| CSS3               | Layout, responsive design, animation, visual system |
+| Vanilla JavaScript | Reveal animations and active navigation state       |
+| JSON-LD            | Structured data for SEO                             |
+| GitHub Pages       | Static hosting                                      |
 
 ## Project Structure
 
@@ -133,23 +100,19 @@ Recommended Open Graph image size:
         └── feature_request.md
 ```
 
----
-
 ## Page Sections
 
-| Section | Description |
-|---|---|
-| Hero | Main value proposition and CTA |
-| Plans | Service packages and pricing cards |
-| How It Works | Step-by-step ordering process |
-| Smart Tools | Digital and AI-powered service highlights |
-| Referral | Referral and reward program section |
-| FAQ | Frequently asked questions |
-| Support | Trust and support highlights |
-| Contact | Contact and request submission CTA |
-| Footer | Final CTA and site identity |
-
----
+| Section      | Description                               |
+| ------------ | ----------------------------------------- |
+| Hero         | Main value proposition and CTA            |
+| Plans        | Service packages and pricing cards        |
+| How It Works | Step-by-step ordering process             |
+| Smart Tools  | Digital and AI-powered service highlights |
+| Referral     | Referral and reward program section       |
+| FAQ          | Frequently asked questions                |
+| Support      | Trust and support highlights              |
+| Contact      | Contact and request submission CTA        |
+| Footer       | Final CTA and site identity               |
 
 ## SEO Features
 
@@ -171,8 +134,6 @@ This project includes a professional SEO foundation:
 - Theme color
 - Accessible navigation labels
 
----
-
 ## Structured Data
 
 The project includes JSON-LD schema for:
@@ -182,8 +143,6 @@ The project includes JSON-LD schema for:
 - `FAQPage`
 
 These schemas help search engines better understand the website, services, and FAQ content.
-
----
 
 ## GitHub Topics
 
@@ -216,8 +175,6 @@ premium-services
 subscription-service
 ```
 
----
-
 ## Getting Started
 
 Clone the repository:
@@ -244,8 +201,6 @@ Open in your browser:
 http://localhost:3000
 ```
 
----
-
 ## Deployment with GitHub Pages
 
 1. Push the project to GitHub.
@@ -262,8 +217,6 @@ Your website should be available at:
 ```txt
 https://power0matin.github.io/digital-services-landing-page/
 ```
-
----
 
 ## Customization Checklist
 
@@ -282,8 +235,6 @@ Before publishing, update:
 - Robots sitemap URL
 - README preview image
 - README live demo URL
-
----
 
 ## Recommended Meta Values
 
@@ -305,23 +256,19 @@ Recommended repository description:
 A modern, SEO-optimized, RTL landing page for premium digital services, subscription workflows, support, and service ordering.
 ```
 
----
-
 ## Performance Guidelines
 
 Recommended Lighthouse targets:
 
-| Metric | Target |
-|---|---|
-| Performance | 90+ |
-| Accessibility | 90+ |
-| Best Practices | 90+ |
-| SEO | 90+ |
-| First Contentful Paint | Less than 2s |
+| Metric                   | Target         |
+| ------------------------ | -------------- |
+| Performance              | 90+            |
+| Accessibility            | 90+            |
+| Best Practices           | 90+            |
+| SEO                      | 90+            |
+| First Contentful Paint   | Less than 2s   |
 | Largest Contentful Paint | Less than 2.5s |
-| Cumulative Layout Shift | Less than 0.1 |
-
----
+| Cumulative Layout Shift  | Less than 0.1  |
 
 ## Accessibility
 
@@ -337,20 +284,16 @@ Accessibility considerations included in the project:
 - High contrast primary actions
 - Reduced-motion support
 
----
-
 ## Browser Support
 
-| Browser | Support |
-|---|---|
-| Chrome | Supported |
-| Edge | Supported |
-| Firefox | Supported |
-| Safari | Supported |
+| Browser       | Support   |
+| ------------- | --------- |
+| Chrome        | Supported |
+| Edge          | Supported |
+| Firefox       | Supported |
+| Safari        | Supported |
 | Mobile Chrome | Supported |
 | Mobile Safari | Supported |
-
----
 
 ## Roadmap
 
@@ -367,8 +310,6 @@ Accessibility considerations included in the project:
 - [ ] Admin-editable content
 - [ ] Automated Lighthouse checks
 - [ ] GitHub Actions deployment workflow
-
----
 
 ## SEO Deployment Checklist
 
@@ -391,8 +332,6 @@ Before going live:
 - [ ] Add privacy policy if collecting user data
 - [ ] Add terms of service if selling services
 
----
-
 ## Security Notes
 
 This is a static frontend project and does not process payments, authentication, or user data by default.
@@ -407,15 +346,11 @@ If you add a contact form, payment flow, or backend integration:
 - Add a privacy policy
 - Store only necessary user data
 
----
-
 ## Contributing
 
 Contributions are welcome.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
-
----
 
 ## Code of Conduct
 
@@ -423,25 +358,17 @@ This project follows a community-friendly code of conduct.
 
 Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
----
-
 ## Security Policy
 
 If you discover a security issue, please read [SECURITY.md](SECURITY.md) and report it responsibly.
-
----
 
 ## Changelog
 
 All notable changes are documented in [CHANGELOG.md](CHANGELOG.md).
 
----
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## Author
 
@@ -449,17 +376,11 @@ Created and maintained by **Matin**.
 
 GitHub:
 
-```txt
 https://github.com/power0matin
-```
 
 Repository:
 
-```txt
 https://github.com/power0matin/digital-services-landing-page
-```
-
----
 
 <div align="center">
 

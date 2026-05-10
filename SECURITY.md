@@ -4,12 +4,10 @@
 
 This project is a static frontend website. Security updates are applied to the latest version of the project.
 
-| Version | Supported |
-|---|---|
-| Latest | Yes |
-| Older versions | No |
-
----
+| Version        | Supported |
+| -------------- | --------- |
+| Latest         | Yes       |
+| Older versions | No        |
 
 ## Reporting a Vulnerability
 
@@ -23,8 +21,6 @@ You can report a vulnerability by opening a GitHub issue with limited sensitive 
 https://github.com/power0matin
 ```
 
----
-
 ## What to Report
 
 Please report issues such as:
@@ -37,8 +33,6 @@ Please report issues such as:
 - Privacy issues caused by future integrations
 - Vulnerabilities introduced by third-party services
 
----
-
 ## Out of Scope
 
 The following are generally out of scope for this static project:
@@ -47,8 +41,6 @@ The following are generally out of scope for this static project:
 - Server-side vulnerabilities when the project is hosted only as static files
 - Payment security when no payment integration exists
 - Authentication issues when no authentication system exists
-
----
 
 ## Security Notes
 
@@ -72,8 +64,6 @@ If these features are added later, make sure to:
 - Add terms of service
 - Store only necessary user data
 
----
-
 ## Response Process
 
 When a vulnerability is reported:
@@ -83,8 +73,6 @@ When a vulnerability is reported:
 3. A fix will be prepared.
 4. The fix will be released.
 5. Credit may be given to the reporter if requested.
-
----
 
 ## Responsible Disclosure
 

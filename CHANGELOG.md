@@ -4,8 +4,6 @@ All notable changes to this project will be documented in this file.
 
 This project follows a simple changelog format inspired by Keep a Changelog and uses semantic versioning where applicable.
 
----
-
 ## [1.0.0] - 2026-05-10
 
 ### Added
@@ -48,8 +46,6 @@ This project follows a simple changelog format inspired by Keep a Changelog and 
 - Vanilla JavaScript scroll reveal
 - Active navigation state
 - GitHub Pages compatibility
-
----
 
 ## [Unreleased]
 

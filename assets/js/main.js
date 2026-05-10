@@ -46,3 +46,4 @@ if ("IntersectionObserver" in window && sections.length) {
 
   sections.forEach((section) => navObserver.observe(section));
 }
+

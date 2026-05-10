@@ -6,8 +6,6 @@ We are committed to providing a friendly, respectful, and harassment-free enviro
 
 This project welcomes contributors who want to improve the codebase, documentation, design, accessibility, SEO, and overall user experience.
 
----
-
 ## Expected Behavior
 
 Examples of positive behavior include:
@@ -19,8 +17,6 @@ Examples of positive behavior include:
 - Explaining suggestions clearly
 - Being patient with beginners
 - Keeping discussions professional
-
----
 
 ## Unacceptable Behavior
 
@@ -34,8 +30,6 @@ Examples of unacceptable behavior include:
 - Deliberate disruption of discussions
 - Repeatedly ignoring maintainer guidance
 
----
-
 ## Project Standards
 
 Contributors should:
@@ -47,15 +41,11 @@ Contributors should:
 - Avoid unnecessary arguments
 - Provide technical reasoning for major suggestions
 
----
-
 ## Enforcement
 
 Project maintainers may remove, edit, or reject comments, commits, issues, and pull requests that do not follow this Code of Conduct.
 
 Repeated or serious violations may result in temporary or permanent restriction from participating in the project.
-
----
 
 ## Reporting
 
@@ -67,8 +57,6 @@ Maintainer:
 https://github.com/power0matin
 ```
 
----
-
 ## Scope
 
 This Code of Conduct applies to all project spaces, including:
@@ -79,8 +67,6 @@ This Code of Conduct applies to all project spaces, including:
 - Code review comments
 - Documentation contributions
 - Any official project communication
-
----
 
 ## Attribution
 

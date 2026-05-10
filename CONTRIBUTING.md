@@ -4,8 +4,6 @@ Thank you for your interest in contributing to this project.
 
 This project is a static RTL landing page built with HTML, CSS, and Vanilla JavaScript. Contributions should keep the project lightweight, accessible, SEO-friendly, and easy to deploy on GitHub Pages.
 
----
-
 ## How to Contribute
 
 1. Fork the repository.
@@ -17,8 +15,6 @@ This project is a static RTL landing page built with HTML, CSS, and Vanilla Java
 ```bash
 git checkout -b feature/your-feature-name
 ```
-
----
 
 ## Local Development
 
@@ -34,8 +30,6 @@ Open:
 http://localhost:3000
 ```
 
----
-
 ## Branch Naming
 
 Use clear branch names:
@@ -47,8 +41,6 @@ docs/update-readme
 style/refine-hero-section
 seo/update-schema
 ```
-
----
 
 ## Commit Message Style
 
@@ -64,18 +56,16 @@ seo: add FAQ structured data
 
 Recommended prefixes:
 
-| Prefix | Purpose |
-|---|---|
-| `feat` | New feature |
-| `fix` | Bug fix |
-| `docs` | Documentation changes |
-| `style` | Visual/CSS changes |
-| `refactor` | Code restructuring |
-| `seo` | SEO-related changes |
-| `perf` | Performance improvements |
-| `chore` | Maintenance tasks |
-
----
+| Prefix     | Purpose                  |
+| ---------- | ------------------------ |
+| `feat`     | New feature              |
+| `fix`      | Bug fix                  |
+| `docs`     | Documentation changes    |
+| `style`    | Visual/CSS changes       |
+| `refactor` | Code restructuring       |
+| `seo`      | SEO-related changes      |
+| `perf`     | Performance improvements |
+| `chore`    | Maintenance tasks        |
 
 ## Code Guidelines
 
@@ -93,8 +83,6 @@ Please follow these guidelines:
 - Maintain RTL layout compatibility.
 - Test on mobile and desktop.
 
----
-
 ## SEO Guidelines
 
 When changing page content, check:
@@ -109,8 +97,6 @@ When changing page content, check:
 - Sitemap URL
 - Internal anchor links
 
----
-
 ## Accessibility Guidelines
 
 Before submitting:
@@ -122,8 +108,6 @@ Before submitting:
 - Keep text readable on mobile.
 - Keep good contrast between text and background.
 - Use correct heading order.
-
----
 
 ## Pull Request Checklist
 
@@ -139,8 +123,6 @@ Before opening a pull request:
 - [ ] I considered SEO impact.
 - [ ] I considered accessibility impact.
 
----
-
 ## Reporting Issues
 
 Use the issue templates in `.github/ISSUE_TEMPLATE`.
@@ -153,8 +135,6 @@ Please include:
 - Actual behavior
 - Browser/device details
 - Screenshots if relevant
-
----
 
 ## License
 
