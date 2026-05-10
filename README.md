@@ -30,8 +30,7 @@ https://power0matin.github.io/digital-services-landing-page/
 
 ## Preview
 
-![Website Preview](assets/images/preview.png)
-
+![Website Preview](assets/images/preview-v2.png)
 
 ## Features
 
