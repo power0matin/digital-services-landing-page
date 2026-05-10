@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://power0matin.github.io/digital-services-landing-page/sitemap.xml

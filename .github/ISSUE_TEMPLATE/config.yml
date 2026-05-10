@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project Repository
+    url: https://github.com/power0matin/digital-services-landing-page
+    about: Visit the main repository page.
+  - name: Maintainer Profile
+    url: https://github.com/power0matin
+    about: Contact or view the maintainer profile.
