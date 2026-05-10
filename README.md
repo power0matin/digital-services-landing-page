@@ -143,37 +143,6 @@ The project includes JSON-LD schema for:
 
 These schemas help search engines better understand the website, services, and FAQ content.
 
-## GitHub Topics
-
-Recommended topics for this repository:
-
-```txt
-html
-css
-javascript
-landing-page
-rtl
-persian
-farsi
-seo
-seo-optimized
-responsive-design
-static-site
-github-pages
-web-design
-frontend
-ui
-ux
-glassmorphism
-accessibility
-schema-org
-json-ld
-open-graph
-digital-services
-premium-services
-subscription-service
-```
-
 ## Getting Started
 
 Clone the repository:
@@ -234,26 +203,6 @@ Before publishing, update:
 - Robots sitemap URL
 - README preview image
 - README live demo URL
-
-## Recommended Meta Values
-
-Recommended homepage title:
-
-```txt
-خدمات دیجیتال پریمیوم | سفارش، تمدید و پشتیبانی حرفه‌ای
-```
-
-Recommended meta description:
-
-```txt
-سفارش و تمدید خدمات دیجیتال پریمیوم با مشاوره قبل از پرداخت، تحویل زمان‌بندی‌شده، پشتیبانی مستقیم و انتخاب پلن مناسب برای کاربران، تیم‌ها و کسب‌وکارها.
-```
-
-Recommended repository description:
-
-```txt
-A modern, SEO-optimized, RTL landing page for premium digital services, subscription workflows, support, and service ordering.
-```
 
 ## Performance Guidelines
 
